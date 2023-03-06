@@ -1,4 +1,4 @@
-# ChatGPT Telegram Bot: **Fast. No daily limits. Special chat modes**
+# DanGPT Bot-Telegram: **Rapido. Sem Limites Diarios. Modos de chat Speaciais**
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/karfly/chatgpt_telegram_bot/main/static/header.png" align="center" style="width: 100%" />
@@ -8,47 +8,49 @@
 <a href="https://t.me/chatgpt_karfly_bot" alt="Run Telegram Bot shield"><img src="https://img.shields.io/badge/RUN-Telegram%20Bot-blue" /></a>
 </p>
 
-We all love [chat.openai.com](https://chat.openai.com), but... It's TERRIBLY laggy, has daily limits, and is only accessible through an archaic web interface.
+A gente ama o [chat.openai.com](https://chat.openai.com), So que... é HORRIVEL! Tem lag, Limites diarios, e so da pra usar com uma interface web arcaica.
 
-This repo is ChatGPT re-created with GPT-3.5 LLM as Telegram Bot. **And it works great.**
+Este repo é o ChatGPT recriado com a API GPT-3.5-Turbo LLM como um Bot do Telegram. **Que funciona :) **
 
-You can deploy your own bot, or use mine: [@chatgpt_karfly_bot](https://t.me/chatgpt_karfly_bot)
+voce pode fazer o seu proprio, ou usar o do criador ORIGINAL: [@chatgpt_karfly_bot](https://t.me/chatgpt_karfly_bot)
 
 ## News
-- *2 Mar 2023*: Added support of [ChatGPT API](https://platform.openai.com/docs/guides/chat/introduction). It's enabled by default and can be disabled with `use_chatgpt_api` option in config. Don't forget to **rebuild** you docker image (`--build`).
+- *5 Mar 2023: Memoria expandida.*
+- *2 Mar 2023*: Adicionado suporte a [API ChatGPT](https://platform.openai.com/docs/guides/chat/introduction). Está ativada por padrão e pode ser removida em `use_chatgpt_api` no arquivo config. Não esqueça de **rebuildar** sua imagem docker (`--build`).
 
-## Features
-- Low latency replies (it usually takes about 3-5 seconds) 
-- No request limits
-- Code highlighting
-- Special chat modes: 👩🏼‍🎓 Assistant, 👩🏼‍💻 Code Assistant, 🎬 Movie Expert. More soon
-- Support of [ChatGPT API](https://platform.openai.com/docs/guides/chat/introduction)
-- List of allowed Telegram users
-- Track $ balance spent on OpenAI API
+## Funções
+- Baixa latencia (Geralmente de 3 a 5 segundos) 
+- Sem limite de pedidos/conversa
+- Codigo em Highlight
+- Modos especiais: 👩🏼‍🎓 Assistente, 👩🏼‍💻 Programador Assistente, 🎬 Especialista em Filmes... E outros
+- Suporte a  [API ChatGPT](https://platform.openai.com/docs/guides/chat/introduction)
+- Lista de usuarios do Telegram autorizados
+- Rastreio $ do saldo gasto com a API
 
-## Bot commands
-- `/retry` – Regenerate last bot answer
-- `/new` – Start new dialog
-- `/mode` – Select chat mode
-- `/balance` – Show balance
-- `/help` – Show help
+## Comandos do BOT
+- `/nova` – Gera uma nova resposta
+- `/dialogo` – Começa um novo dialogo
+- `/modo` – Muda o modo
+- `/saldo` – Mostra o saldo
+- `/ajuda` – Mostra a ajuda
 
 ## Setup
-1. Get your [OpenAI API](https://openai.com/api/) key
+1. Consiga sua API [OpenAI API](https://openai.com/api/) key
 
-2. Get your Telegram bot token from [@BotFather](https://t.me/BotFather)
+2. Consiga seu TelegramBot token do [@BotFather](https://t.me/BotFather)
 
-3. Edit `config/config.example.yml` to set your tokens and run 2 commands below (*if you're advanced user, you can also edit* `config/config.example.env`):
+3. Modifique `config/config.example.yml` com os seus 2 tokens e rode os 2 comandos abaixo (*Se voce se acha avançado pode mudar os arquivos em * `config/config.example.env`):
 ```bash
 mv config/config.example.yml config/config.yml
 mv config/config.example.env config/config.env
 ```
 
-🔥 And now **run**:
+🔥 E agora **RODE!**:
 
 ```bash
 docker-compose --env-file config/config.env up --build
 ```
 
 ## References
-1. [*Build ChatGPT from GPT-3*](https://learnprompting.org/docs/applied_prompting/build_chatgpt)
+1. [*O cara*] (https://github.com/karfly/chatgpt_telegram_bot)
+2. [*Build ChatGPT from GPT-3*](https://learnprompting.org/docs/applied_prompting/build_chatgpt)
