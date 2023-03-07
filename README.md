@@ -16,14 +16,14 @@ voce pode fazer o seu proprio, ou usar o do criador ORIGINAL: [@chatgpt_karfly_b
 
 ## News
 - *5 Mar 2023: Memoria expandida.*
-- *2 Mar 2023*: Adicionado suporte a [API ChatGPT](https://platform.openai.com/docs/guides/chat/introduction). Está ativada por padrão e pode ser removida em `use_chatgpt_api` no arquivo config. Não esqueça de **rebuildar** sua imagem docker (`--build`).
+- *2 Mar 2023*: Adicionado suporte a [API ChatGPT](https://openai.com/blog/introducing-chatgpt-and-whisper-apis). Está ativada por padrão e pode ser removida em `use_chatgpt_api` no arquivo config. Não esqueça de **rebuildar** sua imagem docker (`--build`).
 
 ## Funções
 - Baixa latencia (Geralmente de 3 a 5 segundos) 
 - Sem limite de pedidos/conversa
 - Codigo em Highlight
 - Modos especiais: 👩🏼‍🎓 Assistente, 👩🏼‍💻 Programador Assistente, 🎬 Especialista em Filmes... E outros
-- Suporte a  [API ChatGPT](https://platform.openai.com/docs/guides/chat/introduction)
+- Suporte a  [API ChatGPT](https://platform.openai.com/docs/guides/chat)
 - Lista de usuarios do Telegram autorizados
 - Rastreio $ do saldo gasto com a API
 
