@@ -12,7 +12,7 @@ A gente ama o [chat.openai.com](https://chat.openai.com), So que... é HORRIVEL!
 
 Este repo é o ChatGPT recriado com a API GPT-3.5-Turbo LLM como um Bot do Telegram. **Que funciona :) **
 
-voce pode fazer o seu proprio, ou usar o do criador ORIGINAL: [@chatgpt_karfly_bot](https://t.me/chatgpt_karfly_bot)
+voce pode fazer o seu proprio bot, ou usar o do criador ORIGINAL: [@chatgpt_karfly_bot](https://t.me/chatgpt_karfly_bot)
 
 ## News
 - *5 Mar 2023: Memoria expandida.*
